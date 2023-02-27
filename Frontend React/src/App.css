@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Shantell+Sans:wght@500&display=swap');
+h1 {
+  color: blueviolet;
+}
+
+.header {
+  font-weight: bold;
+  margin-left: 12px;
+  color: azure;
+}
+
+body {
+  /* background: url('../src/images/openai.png'); */
+  background-color: #fff;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.hd {
+  margin-top: 30px;
+}
+p {
+  margin-right: 3px;
+  font-size: xx-large;
+  font-weight: 900;
+  align-items: baseline;
+  color: #e34dbb;
+  justify-content: baseline;
+}
+.typography {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.Typewriter {
+  font-size: xx-large;
+  text-decoration: underline;
+  font-weight: 900;
+  background-image: linear-gradient(
+    57deg,
+    #4518d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Shantell Sans", cursive;
+  
+}
+.Typewriter__cursor {
+  font-size: xx-large;
+  text-decoration: underline;
+  font-weight: 900;
+  background-image: linear-gradient(
+    57deg,
+    #4518d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
